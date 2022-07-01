@@ -7,11 +7,11 @@ It was developed to optimize RESTFUL API calls. And provide s flexibilty,robust 
 
 # Why GraphQL
 
--> It overcome the problem of problem of Over-Fetching or Under-Fetching.With GraphQL, developers can fetch only what is required. Nothing less, nothing more. This solves the issues that arise due to over-fetching and under-fetching.
+* It overcome the problem of problem of Over-Fetching or Under-Fetching.With GraphQL, developers can fetch only what is required. Nothing less, nothing more. This solves the issues that arise due to over-fetching and under-fetching.
 
--> GraphQL allows making multiple resources request in a single query call, which saves a lot of time and bandwidth by reducing the number of network round trips to the server. It also helps to save waterfall network requests, where our need to resolve dependent resources on previous requests. 
+* GraphQL allows making multiple resources request in a single query call, which saves a lot of time and bandwidth by reducing the number of network round trips to the server. It also helps to save waterfall network requests, where our need to resolve dependent resources on previous requests. 
 
--> With GraphQL, there is no need to maintain versions. The resource URL or address remains the same. You can add new fields and deprecate older fields. This approach is intuitive as the client receives a deprecation warning when querying a deprecated field.
+* With GraphQL, there is no need to maintain versions. The resource URL or address remains the same. You can add new fields and deprecate older fields. This approach is intuitive as the client receives a deprecation warning when querying a deprecated field.
 
 
 # GraphQL Components
@@ -19,8 +19,8 @@ It was developed to optimize RESTFUL API calls. And provide s flexibilty,robust 
 
 There are 2 types of GraphQL application components:
 
-        => GraphQL Server-side Components
-        => GraphQL Client-side Components
+         GraphQL Server-side Components
+         GraphQL Client-side Components
          
          
 # GraphQL Server-side Components : 
@@ -47,9 +47,9 @@ Parts of Query:
                                    
 This is a typical GraphQL query. Queries are made up of two distinct parts:
 
-     > The root field (student): The object containing the payload.
+      The root field (student): The object containing the payload.
      
-     > The payload (id name): The field(s) requested by the client.
+      The payload (id name): The field(s) requested by the client.
                                   
                                   
   2. Arguments : GraphQL queries allow us to pass in arguments into query fields and nested query objects. We can pass arguments to every field and every nested object in our query.
@@ -86,9 +86,9 @@ This is a typical GraphQL query. Queries are made up of two distinct parts:
  The client-side components reside on GraphQL clients. The GraphQL client is a code or a JavaScript library that makes POST requests to the GraphQL server. It may be a CMS like Drupal, a single page application, a mobile application, etc.
   
   
-  -> GraphiQL: It is a browser-based interface used for editing and testing GraphQL queries and mutations.
+  * GraphiQL: It is a browser-based interface used for editing and testing GraphQL queries and mutations.
   
-  -> ApolloClient: It is one of the best tools to build GraphQL client applications. It can be easily integrated with all JavaScript
+  * ApolloClient: It is one of the best tools to build GraphQL client applications. It can be easily integrated with all JavaScript
 front-end.
 
 
@@ -97,20 +97,20 @@ front-end.
 GraphQL architecture is a set of guidelines on how requests and responses should be handled like supported protocols,format of the data that can be accepted by the server, format of the response returned bythe server, etc. The request made by a client to the GraphQL server is called a Query.
 
 GraphQL Server can be deployed by using any of the three methods listed below:
- GraphQL server with connected database
- GraphQL server that integrates existing systems
- Hybrid approach
+* GraphQL server with connected database
+* GraphQL server that integrates existing systems
+* Hybrid approach
 
 
- GraphQL server with connected database: 
+* GraphQL server with connected database: 
 This architecture has a GraphQL Server with an integrated database and can often be usedwith new projects. On the receipt of a Query,the server reads the request payload and fetches data from the database. This is called resolving the query. The response returned to the client adheres to the format specified in the official GraphQL specification.
 
 
- GraphQL server that integrates existing systems: 
+* GraphQL server that integrates existing systems: 
  
 This approach is helpful for companies which have legacy infrastructure and different APIs. GraphQL can be used to unify microservices, legacy infrastructure and third-party APIs in the existing system.
 
- Hybrid approach :
+* Hybrid approach :
 This is the combination of two architecture that is GraphQl server with connected databse and GraphQl server that integrates existing systems. In this architecture, the GraphQL server will resolve any request that is received. It will eitherretrieve data from connected database or from the integrated API’s. 
 
 
@@ -124,15 +124,11 @@ This is the combination of two architecture that is GraphQl server with connecte
 
 # Refrences
 
-https://www.javatpoint.com/graphql
+ * https://www.javatpoint.com/graphql
 
-https://www.guru99.com/graphql-tutorial.html
+ * https://youtube.com/playlist?list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f
 
-https://en.wikipedia.org/wiki/GraphQL
+ * https://graphql.org
 
-https://www.quora.com/What-is-GraphQL
-
-https://graphql.org
-
-https://developers.facebook.com/docs/graph-api/
+ * https://developers.facebook.com/docs/graph-api/
   
