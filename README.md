@@ -3,7 +3,7 @@
 GraphQL is an open-source data query and manipulation language for API. It was developed internally by the Facebook corporation in 2012.GraphQL is a query language to build client applications by providing flexible and intuitive syntax for asking the data requirements.
 
 # Objective
-It was developed to optimize RESTFUL API calls. And provide s flexible, robust, and more efficient alternative to REST.
+It was developed to optimize RESTFUL API calls. And provides flexible, robust, and more efficient alternative to REST.
 
 # Why GraphQL
 
