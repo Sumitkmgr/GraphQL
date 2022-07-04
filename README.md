@@ -71,7 +71,7 @@ This is a typical GraphQL query. Queries are made up of two distinct parts:
   
  
  B.Resolver: Resolvers provide the directions for converting GraphQL operations into data. They resolve the query to data by defining resolver functions.
-It displays the server's process as well as the location to fetch data according to a specific field. The resolver also separates the database schema and the API schema. The separated information helps to modify the content obtained from the database
+It displays the server's process as well as the location to fetch data according to a specific field. The resolver also separates the database schema and the API schema. The separated information helps to modify the content obtained from the database.
     
     
     
