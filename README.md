@@ -52,7 +52,7 @@ This is a typical GraphQL query. Queries are made up of two distinct parts:
       The payload (id name): the client-requested field(s).
                                   
                                   
-  2. Arguments: GraphQL queries allow us to pass in arguments into query fields and nested query objects. We can pass arguments to every field and every nested object in our query. 
+  2. Arguments: GraphQL queries allow us to pass arguments into query fields and nested query objects. We can pass arguments to every field and every nested object in our query. 
   
                              
                              {
