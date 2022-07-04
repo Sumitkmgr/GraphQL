@@ -75,7 +75,7 @@ It displays the server's process as well as the location to fetch data according
     
     
     
- C.Schema:A GraphQL schema is the heart of GraphQL implementation. It describes the functionality available to the clients that are connected to it.
+ C.Schema: GraphQL schema is the heart of GraphQL implementation. It describes the functionality available to the clients that are connected to it.
  
  
  
