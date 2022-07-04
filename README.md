@@ -96,33 +96,32 @@ It displays the server's process as well as the location to fetch data according
 The GraphQL architecture is a set of guidelines on how requests and responses should be handled, like supported protocols, the format of the data that can be accepted by the server, the format of the response returned by the server, etc. The request made by a client to the GraphQL server is called a query.
 
 The GraphQL Server can be deployed by using any of the three methods listed below.
-* GraphQL server with a connected database.
-* GraphQL server that integrates existing systems.
-* Hybrid approach.
+
+                  * GraphQL server with a connected database.
+                  * GraphQL server that integrates existing systems.
+                  * Hybrid approach.
 
 
 
 
 * GraphQL server with a connected database: 
-This architecture has a GraphQL Server with an integrated database and can often be usedwith new projects. On the receipt of a query, the server reads the request payload and fetches data from the database. This is called "resolving the query." The response returned to the client adheres to the format specified in the official GraphQL specification.
+This architecture has a GraphQL Server with an integrated database and can often be used with new projects. On the receipt of a query, the server reads the request payload and fetches data from the database. This is called "resolving the query." The response returned to the client adheres to the format specified in the official GraphQL specification.
 
 
 * GraphQL server that integrates existing systems: 
- 
-This approach is helpful for companies that have legacy infrastructure and different APIs. GraphQL can be used to unify microservices, legacy infrastructure, and third-party APIs in the existing system.
+ This approach is helpful for companies that have legacy infrastructure and different APIs. GraphQL can be used to unify microservices, legacy infrastructure, and third-party APIs in the existing system.
 
 * Hybrid approach :
-This is the combination of two architectures: a GraphQL server with connected databse and a GraphQL server that integrates existing systems. In this architecture, the GraphQL server will resolve any requests that are received. It will either retrieve data from a connected database or from the integrated API.
+This is the combination of two architectures: a GraphQL server with  a connected database and a GraphQL server that integrates existing systems. In this architecture, the GraphQL server will resolve any requests that are received. It will either retrieve data from a connected database or from the integrated API.
 
 
 # Summary
 
 *GraphQL is an application layer server-side technology that was developed by Facebook for executing queries with existing data.
 * We can use GraphQL to fetch data with a single API call.
-* 1) Query, 2) Resolver, and 3) Schema are important GraphQL query components.
+*   (I) Query, (II) Resolver, and (III) Schema are important GraphQL query components.
 * A GraphQL client is a code that makes POST requests to a relevant GraphQL server.
-* GraphQL servers are server-side implementations of GraphQL’s specification.
-
+* GraphQL servers are server-side implementations of GraphQL’s specifications.
 # Refrences
 
  * https://www.javatpoint.com/graphql
