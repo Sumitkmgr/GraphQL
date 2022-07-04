@@ -9,7 +9,7 @@ It was developed to optimize RESTFUL API calls. And provide s flexible, robust, 
 
 * It overcomes the problem of Over-Fetching or Under-Fetching. With GraphQL, developers can fetch what is required. Nothing less, nothing more. It solves the issues that arise due to over-fetching and under-fetching.
 
-GraphQL allows making multiple resource requests in a single query call, which saves a lot of time and bandwidth by reducing the number of network round trips to the server. It also helps to save waterfall network requests, where our need to resolve dependent resources on previous requests. 
+* GraphQL allows making multiple resource requests in a single query call, which saves a lot of time and bandwidth by reducing the number of network round trips to the server. It also helps to save waterfall network requests, where our need to resolve dependent resources on previous requests. 
 
 * With GraphQL, there is no need to maintain versions. The resource URL or address remains the same. You can add new fields and deprecate older ones. This approach is intuitive as the client receives a deprecation warning when querying deprecated fields.
 
