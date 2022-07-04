@@ -86,7 +86,7 @@ It displays the server's process as well as the location to fetch data according
  The client-side components reside on GraphQL clients. The GraphQL client is a piece of code or a JavaScript library that makes POST requests to the GraphQL server. It may be a CMS like Drupal, a single-page application, a mobile application, etc.
   
   
-  * GraphiQL: It is a browser-based interface used for editing and testing GraphQL queries and mutations.
+  * GraphiQL: It is a browser-based interface for editing and testing GraphQL queries and mutations.
   
   * ApolloClient: It is one of the best tools to build GraphQL client applications. It can be easily integrated with all JavaScript front-ends.
 
@@ -112,7 +112,7 @@ This architecture has a GraphQL Server with an integrated database and can often
  This approach is helpful for companies that have legacy infrastructure and different APIs. GraphQL can be used to unify microservices, legacy infrastructure, and third-party APIs in the existing system.
 
 * Hybrid approach :
-This is the combination of two architectures: a GraphQL server with  a connected database and a GraphQL server that integrates existing systems. In this architecture, the GraphQL server will resolve any requests that are received. It will either retrieve data from a connected database or from the integrated API.
+This is the combination of two architectures: a GraphQL server with a connected database and a GraphQL server that integrates existing systems. In this architecture, the GraphQL server will resolve any requests that are received. It will either retrieve data from a connected database or from the integrated API.
 
 
 # Summary
