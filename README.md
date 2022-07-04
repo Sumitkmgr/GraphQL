@@ -100,6 +100,9 @@ The GraphQL Server can be deployed by using any of the three methods listed belo
 * GraphQL server that integrates existing systems.
 * Hybrid approach.
 
+
+
+
 * GraphQL server with a connected database: 
 This architecture has a GraphQL Server with an integrated database and can often be usedwith new projects. On the receipt of a query, the server reads the request payload and fetches data from the database. This is called "resolving the query." The response returned to the client adheres to the format specified in the official GraphQL specification.
 
